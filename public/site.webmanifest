@@ -1,0 +1,21 @@
+{
+  "name": "Pere Joan Sancho Suñer | Full Stack Developer",
+  "short_name": "Pere Sancho",
+  "description": "Portfolio profesional de Pere Joan Sancho Suñer - Desarrollador Full-Stack (React 19 & Django 4.2)",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#070a12",
+  "background_color": "#070a12"
+}
