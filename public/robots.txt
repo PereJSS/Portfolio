@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://perejss.github.io/sitemap.xml
+Sitemap: https://perejss.github.io/Portfolio/sitemap.xml

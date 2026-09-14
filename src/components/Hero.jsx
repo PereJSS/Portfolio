@@ -46,7 +46,7 @@ export default function Hero({ onOpenCV }) {
             <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', marginBottom: '1.75rem', flexWrap: 'wrap' }}>
               <div style={{ position: 'relative', width: '76px', height: '76px', flexShrink: 0 }}>
                 <img 
-                  src="/pere-joan-photo.png" 
+                  src={`${import.meta.env.BASE_URL}pere-joan-photo.png`} 
                   alt="Pere Joan Sancho Suñer"
                   style={{
                     width: '100%',

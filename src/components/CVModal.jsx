@@ -118,7 +118,7 @@ export default function CVModal({ onClose }) {
                 {/* Photo */}
                 <div style={{ textAlign: 'center', marginBottom: '1.25rem' }}>
                   <img 
-                    src="/pere-joan-photo.png" 
+                    src={`${import.meta.env.BASE_URL}pere-joan-photo.png`} 
                     alt="Pere Joan Sancho"
                     style={{
                       width: '120px',
@@ -383,7 +383,7 @@ export default function CVModal({ onClose }) {
             }}>
               <div style={{ position: 'relative', width: '112px', height: '112px', flexShrink: 0 }}>
                 <img 
-                  src="/pere-joan-photo.png" 
+                  src={`${import.meta.env.BASE_URL}pere-joan-photo.png`} 
                   alt="Pere Joan Sancho Suñer"
                   style={{
                     width: '100%',
@@ -657,7 +657,7 @@ export default function CVModal({ onClose }) {
           </span>
           <div style={{ display: 'flex', gap: '0.75rem' }}>
             <a 
-              href={activeTab === 'formal' ? "/cv-pere-joan-formal.pdf" : "/cv-pere-joan.pdf"}
+              href={activeTab === 'formal' ? `${import.meta.env.BASE_URL}cv-pere-joan-formal.pdf` : `${import.meta.env.BASE_URL}cv-pere-joan.pdf`}
               download={activeTab === 'formal' ? "CV_Pere_Joan_Sancho_Formal.pdf" : "CV_Pere_Joan_Sancho_Tech.pdf"}
               className="btn btn-primary btn-sm"
             >

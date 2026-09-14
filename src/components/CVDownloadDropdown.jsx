@@ -73,7 +73,7 @@ export default function CVDownloadDropdown({ buttonClassName = "btn btn-outline"
 
           {/* Option 1: CV Formal Estándar */}
           <a
-            href="/cv-pere-joan-formal.pdf"
+            href={`${import.meta.env.BASE_URL}cv-pere-joan-formal.pdf`}
             download="CV_Pere_Joan_Sancho_Formal.pdf"
             onClick={() => setIsOpen(false)}
             style={{
@@ -111,7 +111,7 @@ export default function CVDownloadDropdown({ buttonClassName = "btn btn-outline"
 
           {/* Option 2: CV Tech / Portfolio */}
           <a
-            href="/cv-pere-joan.pdf"
+            href={`${import.meta.env.BASE_URL}cv-pere-joan.pdf`}
             download="CV_Pere_Joan_Sancho_Tech.pdf"
             onClick={() => setIsOpen(false)}
             style={{

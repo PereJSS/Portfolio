@@ -65,7 +65,7 @@ export default function App() {
       <div className="bg-video-container" style={{ position: 'fixed', inset: 0, zIndex: 0, overflow: 'hidden', pointerEvents: 'none', background: '#070a12' }}>
         <video
           ref={bgVideoRef}
-          src="/hero-animation.mp4"
+          src={`${import.meta.env.BASE_URL}hero-animation.mp4`}
           autoPlay
           loop
           muted

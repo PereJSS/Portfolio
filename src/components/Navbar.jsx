@@ -94,7 +94,7 @@ export default function Navbar({ onOpenCV }) {
             overflow: 'hidden',
             boxShadow: '0 0 15px rgba(74, 222, 128, 0.15)'
           }}>
-            <img src="/favicon.png" alt="Logo" style={{ width: '26px', height: '26px', objectFit: 'contain' }} />
+            <img src={`${import.meta.env.BASE_URL}favicon.png`} alt="Logo" style={{ width: '26px', height: '26px', objectFit: 'contain' }} />
           </div>
           <span style={{ fontFamily: 'var(--font-code)', fontWeight: 700, fontSize: '1.25rem', letterSpacing: '-0.02em', whiteSpace: 'nowrap' }}>
             Pere<span style={{ color: '#4ade80' }}>.Sancho</span><span style={{ color: '#38bdf8' }}>()</span>
