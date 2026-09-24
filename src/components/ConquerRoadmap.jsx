@@ -9,15 +9,15 @@ export default function ConquerRoadmap() {
         
         {/* Section Header */}
         <div className="section-header">
-          <div className="section-tag">
+          <div className="section-tag" style={{ background: 'rgba(74, 222, 128, 0.12)', border: '1px solid rgba(74, 222, 128, 0.35)', color: '#4ade80' }}>
             <Award size={14} />
-            <span>Formación Intensiva de Élite</span>
+            <span>Formación Finalizada • Graduado Septiembre 2026</span>
           </div>
           <h2 className="section-title">
             Roadmap del <span style={{ color: '#4ade80' }}>Máster Conquer Blocks</span>
           </h2>
           <p className="section-subtitle">
-            Una trayectoria guiada y autónoma simulando entornos de desarrollo reales en empresas tech: desde la lógica algorítmica hasta despliegues en producción.
+            Trayectoria completada al 100% simulando entornos de desarrollo reales en empresas tech: desde la lógica algorítmica y arquitectura hasta seguridad criptográfica y despliegues en producción.
           </p>
         </div>
 

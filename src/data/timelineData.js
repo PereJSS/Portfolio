@@ -39,9 +39,9 @@ export const TIMELINE_DATA = [
     step: "05",
     title: "Especialización & Proyectos de Producción",
     institution: "Máster Conquer Blocks",
-    period: "Fase Final",
+    period: "Fase Final • Septiembre 2026 (Completado)",
     description: "Simulación de entorno ágil (Scrum), repositorios profesionales, calidad de código y despliegues a producción.",
     techs: ["Agile", "Scrum", "Comunicación", "Code Review", "Production Ready"],
-    highlight: "Preparado para integrarse en equipos de desarrollo."
+    highlight: "Graduado y preparado para integrarse en equipos de desarrollo."
   }
 ];

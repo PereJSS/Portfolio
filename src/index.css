@@ -805,15 +805,17 @@ button {
   .mobile-toggle,
   .status-pill,
   .project-preview-frame,
-  .filter-scroll-container {
+  .filter-scroll-container,
+  .cv-modal-header,
+  .no-print {
     display: none !important;
   }
 
   body, html {
     background: #ffffff !important;
-    color: #111827 !important;
-    font-size: 11pt !important;
-    line-height: 1.4 !important;
+    color: #1e293b !important;
+    font-size: 8.5pt !important;
+    line-height: 1.25 !important;
   }
 
   .modal-overlay {
@@ -828,18 +830,24 @@ button {
     border: none !important;
     max-width: 100% !important;
     background: #ffffff !important;
-    color: #111827 !important;
+    color: #1e293b !important;
+    overflow: visible !important;
+  }
+
+  .cv-modal-scrollable-body {
+    overflow: visible !important;
+    max-height: none !important;
   }
 
   .cv-printable-content,
   #printable-cv {
     background: #ffffff !important;
-    color: #111827 !important;
+    color: #1e293b !important;
     padding: 0 !important;
   }
 
   #printable-cv * {
-    color: #111827 !important;
+    color: inherit;
     text-shadow: none !important;
   }
 
@@ -854,14 +862,23 @@ button {
     text-decoration: underline !important;
   }
 
-  #printable-cv div[style*="background: rgba"] {
-    background: #f8fafc !important;
-    border: 1px solid #e2e8f0 !important;
-  }
-
   @page {
-    margin: 1.2cm;
+    margin: 1.0cm;
     size: A4 portrait;
   }
+}
+
+.cv-modal-scrollable-body::-webkit-scrollbar {
+  width: 6px;
+}
+.cv-modal-scrollable-body::-webkit-scrollbar-track {
+  background: #090d16;
+}
+.cv-modal-scrollable-body::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+.cv-modal-scrollable-body::-webkit-scrollbar-thumb:hover {
+  background: #0284c7;
 }
 

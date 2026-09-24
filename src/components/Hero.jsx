@@ -120,10 +120,10 @@ export default function Hero({ onOpenCV }) {
               textShadow: '0 2px 12px rgba(0,0,0,0.85)'
             }}>
               <span className="hero-desc-full">
-                Full-Stack Software Engineer especializado en <strong style={{ color: '#f8fafc' }}>React 19 + Django 4.2</strong> con sólida trayectoria previa en <strong style={{ color: '#38bdf8' }}>liderazgo de operaciones y gestión de equipos</strong>. Formado en el <strong style={{ color: '#4ade80' }}>Máster Conquer Blocks</strong>, enfocado en arquitecturas robustas, seguridad criptográfica y código de producción.
+                Full-Stack Software Engineer especializado en <strong style={{ color: '#f8fafc' }}>React 19 + Django 4.2</strong> con sólida trayectoria previa en <strong style={{ color: '#38bdf8' }}>liderazgo de operaciones y gestión de equipos</strong>. Graduado en el <strong style={{ color: '#4ade80' }}>Máster Conquer Blocks (Septiembre 2026)</strong>, enfocado en arquitecturas robustas, seguridad criptográfica y código de producción.
               </span>
               <span className="hero-desc-mobile">
-                Ingeniero Full-Stack (<strong style={{ color: '#4ade80' }}>React 19 & Django 4.2</strong>) con sólida experiencia en <strong style={{ color: '#38bdf8' }}>liderazgo de equipos</strong> y formado en Conquer Blocks.
+                Ingeniero Full-Stack (<strong style={{ color: '#4ade80' }}>React 19 & Django 4.2</strong>) con sólida experiencia en <strong style={{ color: '#38bdf8' }}>liderazgo de equipos</strong> y graduado en Conquer Blocks (Septiembre 2026).
               </span>
             </p>
 
